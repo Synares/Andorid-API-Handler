@@ -3,13 +3,13 @@ Android API Handler
 
 **Instructions:**
 
-- Download project as a zip and extract.
-- Import "datahandler" package/folder as module.
-- Make sure to have include this line in settings.gradle file:
+- Download the project as a zip and extract.
+- Import "datahandler" package/folder as a module.
+- Make sure to include this line in settings.gradle file:
 
 `	include ':datahandler' `
 
-- Add this line in your app level build.gradle:
+- Add this line in your app-level build.gradle:
 
 `	implementation project(path: ':datahandler')`
 
